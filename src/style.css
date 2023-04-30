@@ -68,7 +68,7 @@ body {
 .date-input.error .input-name {
   color: hsl(0, 100%, 67%);
 }
-.date-input.error input:not(:focus) {
+.date-input.error input {
   border-color: hsl(0, 100%, 67%);
 }
 .date-input input::placeholder {
