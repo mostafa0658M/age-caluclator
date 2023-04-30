@@ -150,9 +150,11 @@ body {
 @media (max-width: 540px) {
   .calc-wrapper {
     width: 90%;
+    padding: 25px;
   }
   .date-inputs {
     width: 100%;
+    gap: 10px;
   }
   .date-input input {
     padding: 10px;
