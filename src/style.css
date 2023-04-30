@@ -48,6 +48,12 @@ body {
   border: 1px hsl(0, 0%, 86%) solid;
   border-radius: 10px;
   outline: none;
+  transition: 0.2s;
+}
+.date-input input:focus {
+  border-color: transparent;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, darkblue, darkorchid) border-box;
 }
 .error-text {
   color: hsl(0, 100%, 67%);
